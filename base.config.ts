@@ -1,7 +1,5 @@
 import { Config } from "@/types/_config";
 import { getURL } from "@/utils/main";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // Base Configuration
 const _config: Config = {
