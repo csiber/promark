@@ -38,17 +38,11 @@ const _config: Config = {
     ],
     defaultLocale: "en", // Default language
     locales: [
-      "ja", // Japanese
       "en", // English
       "hu", // Magyar
     ],
     path: "i18n", // Path to translation files
     localeConfigs: {
-      ja: {
-        label: "日本語", // Japanese label
-        htmlLang: "ja-JP", // HTML lang attribute value
-        path: "ja", // Path
-      },
       en: {
         label: "English", // English label
         htmlLang: "en-US", // HTML lang attribute value
