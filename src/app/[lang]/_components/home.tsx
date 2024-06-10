@@ -1,5 +1,5 @@
 "use client";
-
+export const runtime = 'edge';
 // Layout
 import BasePageLayout from "@/components/client/base_layout";
 

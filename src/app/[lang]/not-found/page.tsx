@@ -1,5 +1,5 @@
 "use client";
-export const runtime = 'edge';
+
 import { useLanguage, useTranslation } from "@/app/i18n/client";
 import PageClientLayout from "@/components/client/PageClient_layout";
 
