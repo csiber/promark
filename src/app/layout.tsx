@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 // next-themes
 import { ThemeProvider } from "next-themes";
 import { Suspense } from "react";
