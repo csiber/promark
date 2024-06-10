@@ -29,14 +29,14 @@ const modules_card = [
   {
     title: "Primal Paradise",
     description: "Map: The Island, Rates: 3x Harvesting, 3x Taming, 3x XP",
-    url: "steam://gs.promnet.cloud:7777",
+    url: "steam://connect/88.209.193.221:7777?appid=346110",
     image_url: "/brand/servers/the_island_card.webp",
     version: `PVE`,
   },
   {
     title: "Survival Sanctuary",
     description: "Map: The Center, Rates: 3x Harvesting, 3x Taming, 5x XP",
-    url: "steam://gs.promnet.cloud:7778",
+    url: "steam://connect/88.209.193.221:7778?appid=346110",
     image_url: "/brand/servers/the_center_card.avif",
     version: `PVP`,
   },
@@ -44,7 +44,7 @@ const modules_card = [
     title: "Dino Dominion",
     description:
       "Map: Ragnarok, Rates: 4x Harvesting, 2.5x Taming, 2x XP",
-    url: "steam://gs.promnet.cloud:7779",
+    url: "steam://connect/88.209.193.221:7779?appid=346110",
     image_url: "/brand/servers/ragnarok_card.webp",
     version: `PVP`,
   },
@@ -52,7 +52,7 @@ const modules_card = [
     title: "Jurassic Journey",
     description:
       "Map: Valguero, Rates: 4x Harvesting, 3x Taming, 2x XP",
-    url: "steam://gs.promnet.cloud:7780",
+    url: "steam://connect/88.209.193.221:7780?appid=346110",
     image_url: "/brand/servers/valguero_card.webp",
     version: `PVP`,
   },
