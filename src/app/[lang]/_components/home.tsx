@@ -1,5 +1,4 @@
 "use client";
-export const runtime = 'edge';
 // Layout
 import BasePageLayout from "@/components/client/base_layout";
 
@@ -41,7 +40,7 @@ const modules_card = [
     image_url: "/brand/servers/the_center_card.avif",
     version: `PVP`,
   },
-  {
+  /* {
     title: "Dino Dominion",
     description:
       "Map: Ragnarok, Rates: 4x Harvesting, 2.5x Taming, 2x XP",
@@ -96,7 +95,7 @@ const modules_card = [
     url: "steam://gs.promnet.cloud:7785",
     image_url: "/brand/servers/aberration_card.webp",
     version: `PVP`,
-  },
+  }, */
 ];
 
 export default function PageClientLayout_Home() {
