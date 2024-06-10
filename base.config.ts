@@ -1,6 +1,6 @@
 import { Config } from "@/types/_config";
 import { getURL } from "@/utils/main";
-export const runtime = 'edge';
+
 // Base Configuration
 const _config: Config = {
   year: "2024",
