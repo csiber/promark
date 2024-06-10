@@ -1,6 +1,5 @@
 import type { GetServerSideProps, Metadata, ResolvingMetadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import { Inter } from "next/font/google";
 
 // config
