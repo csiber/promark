@@ -28,7 +28,7 @@ const _config: Config = {
     },
     Image: { icon: "/favicon.ico", apple: "/favicon.png" }, // Icon images
     cardImage:
-      "https://promark.promnet.cloud/img/screenshot/en-light-fullscreen.png", // Card image
+      "https://promark.promnet.cloud/img/PROMARK.png", // Card image
     robots: "follow, index", // Robots meta tag content
     url: getURL(), // Site URL
   },
