@@ -40,62 +40,63 @@ const modules_card = [
     image_url: "/brand/servers/the_center_card.avif",
     version: `PVP`,
   },
-  /* {
+  {
     title: "Dino Dominion",
     description:
-      "Map: Ragnarok, Rates: 4x Harvesting, 2.5x Taming, 2x XP",
+      "Map: Ragnarok, Rates: 4x Harvesting, 2.5x Taming, 3x XP",
     url: "steam://run/346110//+connect%2088.209.193.221:7779",
     image_url: "/brand/servers/ragnarok_card.webp",
     version: `PVP`,
   },
-  {
-    title: "Jurassic Journey",
-    description:
-      "Map: Valguero, Rates: 4x Harvesting, 3x Taming, 2x XP",
-    url: "steam://run/346110//+connect%2088.209.193.221:7780",
-    image_url: "/brand/servers/valguero_card.webp",
-    version: `PVP`,
-  },
-  {
-    title: "Eternal Eden",
-    description:
-      "Map: Crystal Isles, Rates: 5x Harvesting, 4x Taming, 3x XP",
-    url: "steam://gs.promnet.cloud:7781",
-    image_url: "/brand/servers/crystal_isles_card.webp",
-    version: `PVP`,
-  },
-  {
-    title: "Ancient Ark",
-    description:
-      "Map: Scorched Earth, Rates: 3x Harvesting, 2x Taming, 1.5x XP",
-    url: "steam://gs.promnet.cloud:7782",
-    image_url: "/brand/servers/scorched_earth_card.webp",
-    version: `PVP`,
-  },
-  {
-    title: "Wild Wilderness",
-    description:
-      "Map: Extinction, Rates: 4x Harvesting, 3x Taming, 2x XP",
-    url: "steam://gs.promnet.cloud:7783",
-    image_url: "/brand/servers/extinction_card.webp",
-    version: `PVP`,
-  },
-  {
-    title: "Genesis Grounds",
-    description:
-      "Map: Genesis Part 1, Rates: 5x Harvesting, 4x Taming, 3x XP",
-    url: "steam://gs.promnet.cloud:7784",
-    image_url: "/brand/servers/genesispart1_card.webp",
-    version: `PVP`,
-  },
-  {
-    title: "Dino Dynasty",
-    description:
-      "Map: Aberration, Rates: 3x Harvesting, 2x Taming, 1.5x XP",
-    url: "steam://gs.promnet.cloud:7785",
-    image_url: "/brand/servers/aberration_card.webp",
-    version: `PVP`,
-  }, */
+  /*
+{
+  title: "Jurassic Journey",
+  description:
+    "Map: Valguero, Rates: 4x Harvesting, 3x Taming, 2x XP",
+  url: "steam://run/346110//+connect%2088.209.193.221:7780",
+  image_url: "/brand/servers/valguero_card.webp",
+  version: `PVP`,
+},
+{
+  title: "Eternal Eden",
+  description:
+    "Map: Crystal Isles, Rates: 5x Harvesting, 4x Taming, 3x XP",
+  url: "steam://gs.promnet.cloud:7781",
+  image_url: "/brand/servers/crystal_isles_card.webp",
+  version: `PVP`,
+},
+{
+  title: "Ancient Ark",
+  description:
+    "Map: Scorched Earth, Rates: 3x Harvesting, 2x Taming, 1.5x XP",
+  url: "steam://gs.promnet.cloud:7782",
+  image_url: "/brand/servers/scorched_earth_card.webp",
+  version: `PVP`,
+},
+{
+  title: "Wild Wilderness",
+  description:
+    "Map: Extinction, Rates: 4x Harvesting, 3x Taming, 2x XP",
+  url: "steam://gs.promnet.cloud:7783",
+  image_url: "/brand/servers/extinction_card.webp",
+  version: `PVP`,
+},
+{
+  title: "Genesis Grounds",
+  description:
+    "Map: Genesis Part 1, Rates: 5x Harvesting, 4x Taming, 3x XP",
+  url: "steam://gs.promnet.cloud:7784",
+  image_url: "/brand/servers/genesispart1_card.webp",
+  version: `PVP`,
+},
+{
+  title: "Dino Dynasty",
+  description:
+    "Map: Aberration, Rates: 3x Harvesting, 2x Taming, 1.5x XP",
+  url: "steam://gs.promnet.cloud:7785",
+  image_url: "/brand/servers/aberration_card.webp",
+  version: `PVP`,
+}, */
 ];
 
 export default function PageClientLayout_Home() {
