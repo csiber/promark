@@ -131,6 +131,7 @@ export default function PageClientLayout_Home() {
             </Link>
           </Col>
         ))}
+        <iframe src="https://discord.com/widget?id=917759709468037190&theme=dark" width="625" height="375" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
       </Row>
     </BasePageLayout>
   );
