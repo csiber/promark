@@ -106,7 +106,9 @@ export default function PageClientLayout_Home() {
   return (
     <BasePageLayout>
       <div className="flex flex-col gap-2 text-center py-5">
-        <h1 className="font-bold text-5xl">{t("Next.js base template")}</h1>
+        <h1 className="font-bold text-5xl bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">
+          {t("Next.js base template")}
+        </h1>
         <p>
           {t(
             "We're excited to present our lineup of ARK servers, ready for you to explore and conquer! Below are the details of each server."
@@ -116,7 +118,7 @@ export default function PageClientLayout_Home() {
       <Row xs={1} md={2} className="g-4">
         {modules_card.map((card, idx) => (
           <Col key={idx}>
-            <Link target="_block" href={card.url} className="no-underline">
+            <Link href={card.url} passHref>
               <Card>
                 <div
                   className="w-full h-[260px] bg-cover bg-no-repeat bg-center rounded-[0.375rem] rounded-b-none"
@@ -131,7 +133,14 @@ export default function PageClientLayout_Home() {
             </Link>
           </Col>
         ))}
-        <iframe src="https://discord.com/widget?id=917759709468037190&theme=dark" width="625" height="375" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <iframe
+          src="https://discord.com/widget?id=917759709468037190&theme=dark"
+          width="625"
+          height="375"
+          allowTransparency  // Itt nincs érték megadva, csak jelen van az attribútum
+          frameBorder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+        ></iframe>
       </Row>
     </BasePageLayout>
   );
