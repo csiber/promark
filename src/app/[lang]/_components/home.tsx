@@ -27,11 +27,21 @@ import { useLanguage, useTranslation } from "@/app/i18n/client";
 
 const modules_card = [
   {
+    title: "Jurassic Ascension",
+    description:
+      "Map: The Island_WP, Rates: 2x Harvesting, 2x Taming, 2x XP",
+    url: "steam://run/2430930//+connect%2088.209.193.221:7780",
+    image_url: "/brand/servers/jurassic_ascension.webp",
+    version: `PVE`,
+    status: `Online`,
+  },
+  {
     title: "Primal Paradise",
     description: "Map: The Island, Rates: 3x Harvesting, 3x Taming, 3x XP",
     url: "steam://run/346110//+connect%2088.209.193.221:7777",
     image_url: "/brand/servers/the_island_card.webp",
     version: `PVE`,
+    status: `Online`,
   },
   {
     title: "Survival Sanctuary",
@@ -39,6 +49,7 @@ const modules_card = [
     url: "steam://run/346110//+connect%2088.209.193.221:7778",
     image_url: "/brand/servers/the_center_card.avif",
     version: `PVP`,
+    status: `Online`,
   },
   {
     title: "Dino Dominion",
@@ -47,6 +58,7 @@ const modules_card = [
     url: "steam://run/346110//+connect%2088.209.193.221:7779",
     image_url: "/brand/servers/ragnarok_card.webp",
     version: `PVP`,
+    status: `Online`,
   },
   /*
 {
@@ -128,6 +140,7 @@ export default function PageClientLayout_Home() {
                   <Card.Title>{card.title}</Card.Title>
                   <Card.Text>{card.description}</Card.Text>
                   <Badge bg="primary">{card.version}</Badge>
+                  <Badge bg="text-green-500 animate-pulse">{card.status}</Badge>
                 </Card.Body>
               </Card>
             </Link>
