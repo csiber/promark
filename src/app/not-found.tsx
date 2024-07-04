@@ -7,5 +7,5 @@ import { redirect } from "next/navigation";
 // therefore doesn't have a locale associated with it.
 
 export default function NotFound() {
-  redirect(`/ja/not-found`);
+  redirect(`/not-found`);
 }

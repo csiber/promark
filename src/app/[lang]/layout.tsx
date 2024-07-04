@@ -38,7 +38,7 @@ export async function generateMetadata(
     },
     description: t(_config.meta.description),
     referrer: "origin-when-cross-origin",
-    keywords: ["Vercel", "Next.js"],
+    keywords: ["ARK", "PromNET"],
     authors: [
       { name: _config.meta.authors.name, url: _config.meta.authors.url },
     ],
@@ -51,7 +51,7 @@ export async function generateMetadata(
     alternates: {
       canonical: _config.meta.origin,
       languages: {
-        "ja-JP": `${_config.meta.origin}/ja`,
+        "hu-HU": `${_config.meta.origin}/hu`,
         "en-US": `${_config.meta.origin}/en`,
       },
     },

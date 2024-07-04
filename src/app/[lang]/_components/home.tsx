@@ -43,14 +43,14 @@ const modules_card = [
     version: `PVE`,
     status: `Online`,
   },
-  {
+/*   {
     title: "Survival Sanctuary",
     description: "Map: The Center, Rates: 3x Harvesting, 3x Taming, 5x XP",
     url: "steam://run/346110//+connect%2088.209.193.221:7778",
     image_url: "/brand/servers/the_center_card.avif",
     version: `PVP`,
-    status: `Online`,
-  },
+    status: `Offline`,
+  }, */
   {
     title: "Dino Dominion",
     description:
@@ -119,7 +119,7 @@ export default function PageClientLayout_Home() {
     <BasePageLayout>
       <div className="flex flex-col gap-2 text-center py-5">
         <h1 className="font-bold text-5xl bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">
-          {t("Next.js base template")}
+          {t("PromARK: ARK game servers")}
         </h1>
         <p>
           {t(

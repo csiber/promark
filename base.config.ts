@@ -89,9 +89,8 @@ const _config: Config = {
       },
       {
         type: "one",
-        label: "Hosting",
-        url: "https://promnet.cloud",
-        target: "_blank",
+        label: "Tutorial",
+        url: "/tutorial",
       },
     ],
   },
