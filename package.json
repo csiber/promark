@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "yarn@1.22.17",
-  "turbo": {
-   "tasks": {
-   }
-  },
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
