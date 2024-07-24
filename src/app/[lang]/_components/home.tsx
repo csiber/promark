@@ -51,7 +51,7 @@ const modules_card = [
     version: `PVP`,
     status: `Offline`,
   }, */
-  {
+  /* {
     title: "Dino Dominion",
     description:
       "Map: Ragnarok, Rates: 4x Harvesting, 2.5x Taming, 3x XP",
@@ -59,7 +59,7 @@ const modules_card = [
     image_url: "/brand/servers/ragnarok_card.webp",
     version: `PVP`,
     status: `Online`,
-  },
+  }, */
   /*
 {
   title: "Jurassic Journey",
