@@ -29,7 +29,7 @@ const modules_card = [
   {
     title: "Jurassic Ascension",
     description:
-      "Map: The Island_WP, Rates: 2x Harvesting, 2x Taming, 2x XP",
+      "Map: The Island_WP, Rates: 5x Harvesting, 5x Taming, 5x XP",
     url: "steam://run/2430930//+connect%2088.209.193.221:7780",
     image_url: "/brand/servers/jurassic_ascension.webp",
     version: `PVE`,
